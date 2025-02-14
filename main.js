@@ -26,7 +26,7 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Bạn Yêu ơi!! 👋👋👋',
+        title: 'Bạn Chi Yêu ơi!! 👋👋👋',
         text: 'Chuẩn bị nhận quà chưa nè!! 🥰🥰<3',
         imageUrl: 'cuteCat.jpg',
         background: '#fff url("iput-bg.jpg")',
@@ -38,7 +38,7 @@ function firstQuestion(){
             var audio = new Audio('tick.mp3');
             audio.play();
             Swal.fire({
-                title: 'hello tình yêu<3😘 ',
+                title: 'Hello tình yêu<3😘 ',
                 text: 'Chúc em có 1 ngày valentine vui vẻ 😊, một mùa valentine thật đằm thắm, cùng nhau cố gắng vượt qua khó khăn để cho tình yêu của 2 đứa tốt đẹp hơn, vươn xa hơn và đi tới hạnh phúc, chúc em có một mùa Va lên thai vui vẻ🥰🥰🥰',
                 imageUrl: 'baner.jpg',
                 background: '#fff url("iput-bg.jpg")',
@@ -65,7 +65,7 @@ function firstQuestion(){
                         imageUrl: 'No.gif',
                         background: '#fff url("iput-bg.jpg")',
                         imageAlt: 'Custom image',
-                        confirmButtonText: 'Ấn vào để xem quà🥳',
+                        confirmButtonText: 'Ấn vào để xem quà nè🥳',
                     }).then((result) => {
                         audioNo.pause();
                         if (result.value) {
@@ -99,8 +99,8 @@ function firstQuestion(){
                                                 width: 900,
                                                 confirmButtonText: 'Okiiiii lun <3😜😜😜',
                                                 background: '#fff url("iput-bg.jpg")',
-                                                title: 'Chúc bạn một mùa Valentine vui vẻ không quạo nha🥰😘😘',
-                                                text: 'Ib mình nêu cảm nhận về món quà này nha! Hhee🥰🥰🥰',
+                                                title: 'Chúc bạn Chi yêu một mùa Valentine vui vẻ không quạo nha🥰😘😘',
+                                                text: 'Món quà thực sự ở đây cơ! Hhee🥰🥰🥰',
                                                 confirmButtonColor: '#83d0c9',
                                                 backdrop: `
                                                     rgba(0,0,123,0.4)
